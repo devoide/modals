@@ -1,0 +1,27 @@
+#behindModal {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: grey;
+    opacity: 50%;
+    z-index: 2;
+}
+
+#setModal {
+    position: absolute;
+    background-color: #363062;
+    top: 10vh;
+    bottom: 10vh;
+    left: 20vw;
+    right: 20vw;
+    z-index: 3;
+    border-radius: 20px;
+}
+
+.mainModal {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 25px;
+}
